@@ -1,14 +1,14 @@
-import backgroundImage from "@/public/firstphoto.png";
-import Header from "./First-components/Header";
-import Paragraph from "./First-components/Paragraph";
-import Buttons from "./First-components/Buttons";
+import classimg from "@/public/classimg.png";
+import Head from "../Thidcomponents/Head";
+import Paragraph from "../Thidcomponents/Paragraph";
+import Buttons from "../Thidcomponents/Buttons";
 
 export default function Home() {
   return (
     <main
       className=" shrink-0 "
       style={{
-        backgroundImage: `url(${backgroundImage.src})`,
+        backgroundImage: `url(${classimg.src})`,
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -16,7 +16,7 @@ export default function Home() {
         height: "800px",
       }}
     >
-      <Header />
+      <Head />
       <Paragraph />
       <Buttons />
     </main>
