@@ -11,9 +11,6 @@ const config: Config = {
     fontFamily: {
       abc: [" Nunito, sans-serif "],
     },
-    fontFamily: {
-      cba: ["  Crimson Text, serif"],
-    },
   },
   plugins: [],
 };
