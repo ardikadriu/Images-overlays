@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Header = () => {
   return (
     <div className="flex w-[100vw] text-white font-abc justify-center  ]">
@@ -14,6 +16,9 @@ const Header = () => {
             {" "}
             Sign Up
           </button>
+          <Link href={"SecondPage"} className="ml-[40px] text-[20px]">
+            &gt;
+          </Link>
         </div>
       </div>
     </div>

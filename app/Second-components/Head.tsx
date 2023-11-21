@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 
 const Head = () => {
   return (
@@ -15,6 +15,9 @@ const Head = () => {
         <div className="ml-[30px] w-[94px] h-[34px] bg-[#ffffff3d] rounded-[200px] items-center flex justify-center ">
           <h2>Sign Up</h2>
         </div>
+        <Link href={"Thirdpage"} className="ml-[40px] text-[20px]">
+          &gt;
+        </Link>
       </div>
     </header>
   );
